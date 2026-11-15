@@ -176,7 +176,7 @@ col4.metric("Sensors", "3 Virtual Sensors")
 st.markdown("---")
 st.subheader("🏭 3D Conveyor Belt Visualization")
 
-model_path = "models/model conveyor belt.glb"
+model_path = "model Conveyor belt.glb"
 
 with open(model_path, "rb") as f:
     model_data = base64.b64encode(f.read()).decode("utf-8")
